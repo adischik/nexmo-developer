@@ -9,14 +9,14 @@
       <a href="/" id="logo" class="Nxd-logo__image Vlt-S-only">
         <%= image_tag 'nexmo-logo-collapsed.svg', alt:'Nexmo Developer Logo' %>
       </a>
-      <a href="/careers" class="Vlt-M-plus">
-        <span id="header-hiring" class="Nxd-logo__hiring"><%= t('.hiring') %></span>
+      <a href="/careers" class="Vlt-M-plus Vlt-badge Vlt-badge--purple Vlt-badge--transparent">
+        <span id="header-hiring"><%= t('.hiring') %></span>
       </a>
     </div>
 
     <nav class="Nxd-header__nav">
       <a class="Nxd-main-header__link Vlt-M-plus" href="https://nexmo.com">Nexmo.com</a>
-      <a href="https://dashboard.nexmo.com/sign-up" class="Vlt-btn Vlt-btn--primary" data-ab="try_button_v2"><b>
+      <a href="https://dashboard.nexmo.com/sign-up" class="Vlt-btn Vlt-btn--secondary Vlt-btn--app" data-ab="try_button_v2"><b>
           <% ab_test(:try_button_v2, "< #{t('.try-it')} />", "{ #{t('.try-it')} }", "< #{t('.get_an_api_key')} />", "{ #{t('.get_an_api_key')} }", "< #{t('.start_building')} />", "{ #{t('.start_building')} }") do |s| %>
           <%= s %>
         <% end %>
@@ -28,12 +28,12 @@
     <a id="Vlt-sidenav-mobile-trigger"><svg><use xlink:href="/symbol/volta-icons.svg#Vlt-icon-menu"></use></svg></a>
 
     <div class="Nxd-header__sub__menu">
-      <a href="/documentation" class="Vlt-tabs__link <%= @navigation == :documentation ? 'Vlt-tabs__link_active' : '' %>"><%= t('.documentation') %></a>
-      <a href="/use-cases" class="Vlt-tabs__link <%= @navigation == :use_case ? 'Vlt-tabs__link_active' : '' %>"><%= t('.use-cases') %></a>
-      <a href="/api" class="Vlt-tabs__link <%= @navigation == :api ? 'Vlt-tabs__link_active' : '' %>"><%= t('.api-reference') %></a>
-      <a href="/tools" class="Vlt-tabs__link <%= @navigation == :tools ? 'Vlt-tabs__link_active' : '' %>"><%= t('.sdks-and-tools') %></a>
-      <a href="/community" class="Vlt-tabs__link <%= @navigation == :community ? 'Vlt-tabs__link_active' : '' %>"><%= t('.community') %></a>
-      <a href="/extend" class="Vlt-tabs__link <%= @navigation == :extend ? 'Vlt-tabs__link_active' : '' %>"><%= t('.extend') %></a>
+      <a href="/documentation" class="Vlt-tabs__link <%= @navigation == :documentation ? 'Vlt-tabs__link_active' : '' %>"><b><%= t('.documentation') %></b></a>
+      <a href="/use-cases" class="Vlt-tabs__link <%= @navigation == :use_case ? 'Vlt-tabs__link_active' : '' %>"><b><%= t('.use-cases') %></b></a>
+      <a href="/api" class="Vlt-tabs__link <%= @navigation == :api ? 'Vlt-tabs__link_active' : '' %>"><b><%= t('.api-reference') %></b></a>
+      <a href="/tools" class="Vlt-tabs__link <%= @navigation == :tools ? 'Vlt-tabs__link_active' : '' %>"><b><%= t('.sdks-and-tools') %></b></a>
+      <a href="/community" class="Vlt-tabs__link <%= @navigation == :community ? 'Vlt-tabs__link_active' : '' %>"><b><%= t('.community') %></b></a>
+      <a href="/extend" class="Vlt-tabs__link <%= @navigation == :extend ? 'Vlt-tabs__link_active' : '' %>"><b><%= t('.extend') %></b></a>
     </div>
 
     <% if search_enabled? %>
