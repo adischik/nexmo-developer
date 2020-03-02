@@ -1,5 +1,23 @@
 <footer id="footer">
   <div class="container">
+    <div id="footer-outbound-links">
+      <a href="https://nexmo.com/" id="footer-logo">
+        <%= image_tag asset_pack_path('media/logos/vonage-white.svg'), alt:'Nexmo Vonage Logo' %>
+      </a>
+
+      <a href="https://www.nexmostatus.com/" target="_blank" class="Vlt-badge-combined">
+        <span class="Vlt-badge Vlt-badge--indigo">API Status</span><span class="Vlt-badge Vlt-badge--purple Nxd-api-status">Loading</span>
+      </a>
+
+      <div id="footer-social-links">
+        <a href="https://www.linkedin.com/company/1345545/" class="footer-link" target="_blank"><i class="icon icon-linkedin"></i></a>
+        <a href="/slack" class="footer-link" target="_blank"><i class="icon icon-slack"></i></a>
+        <a href="https://twitter.com/nexmo" class="footer-link" target="_blank"><i class="icon icon-twitter"></i></a>
+        <a href="https://github.com/nexmo" class="footer-link" target="_blank"><i class="icon icon-github"></i></a>
+        <a href="http://stackoverflow.com/questions/tagged/nexmo" class="footer-link" target="_blank"><i class="icon icon-stack-overflow"></i></a>
+      </div>
+    </div>
+
     <div>
       <h5>Documentation</h5>
       <a href="/messaging/sms/overview">SMS</a>
@@ -40,24 +58,6 @@
       <h5>Support</h5>
       <a href="https://help.nexmo.com" target="_blank">Knowledgebase</a>
       <a href="https://help.nexmo.com/hc/en-us/sections/115004147507" target="_blank">Known Issues</a>
-    </div>
-
-    <div id="footer-outbound-links">
-      <a href="https://nexmo.com/" id="footer-logo">
-        <%= image_tag 'nexmo-vonage-white.svg', alt:'Nexmo Vonage Logo' %>
-      </a>
-
-      <a href="https://www.nexmostatus.com/" target="_blank" class="Vlt-badge-combined">
-        <span class="Vlt-badge Vlt-badge--blue">API Status</span><span class="Vlt-badge Vlt-badge--green Nxd-api-status">Loading</span>
-      </a>
-
-      <div id="footer-social-links">
-        <a href="https://www.linkedin.com/company/1345545/" class="footer-link" target="_blank"><i class="icon icon-linkedin"></i></a>
-        <a href="/slack" class="footer-link" target="_blank"><i class="icon icon-slack"></i></a>
-        <a href="https://twitter.com/nexmo" class="footer-link" target="_blank"><i class="icon icon-twitter"></i></a>
-        <a href="https://github.com/nexmo" class="footer-link" target="_blank"><i class="icon icon-github"></i></a>
-        <a href="http://stackoverflow.com/questions/tagged/nexmo" class="footer-link" target="_blank"><i class="icon icon-stack-overflow"></i></a>
-      </div>
     </div>
   </div>
 </footer>

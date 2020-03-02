@@ -11,6 +11,8 @@ import '@babel/polyfill'
 
 import '../stylesheets/application'
 
+require.context('@vonagevolta/volta2/images/logos', true)
+
 // XXX: hack for Volta, unfortunately it doesn't provide modules :(
 import Volta from "../javascript/volta/volta.js"
 
