@@ -13,6 +13,7 @@
 .Vlt-sidenav {
   flex: 0 0 300px;
   width: 300px;
+  background: $grey-lighter;
 }
 
 .Vlt-sidemenu--flat {
@@ -51,7 +52,7 @@
 
 .navigation--documentation {
   .navigation-item--api-reference a {
-    color: $blue-dark;
+    color: $purple;
   }
 
   .navigation-item--ncco-reference a {

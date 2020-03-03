@@ -35,7 +35,7 @@ class SidenavItem
   end
 
   def css_classes
-    classes = ['Vlt-badge Vlt-badge--margin-left']
+    classes = ['Vlt-badge Vlt-badge--margin-left Vlt-badge--small']
     classes << 'Vlt-bg-green-lighter Vlt-green' if label.casecmp('beta').zero?
     classes << 'Vlt-bg-blue-lighter Vlt-blue' if label.casecmp('dev preview').zero?
 
