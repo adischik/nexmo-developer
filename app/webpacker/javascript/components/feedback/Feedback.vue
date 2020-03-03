@@ -1,5 +1,5 @@
 <template>
-  <div class="Vlt-box Vlt-box--left Vlt-bg-grey-light feedback">
+  <div class="Vlt-box Vlt-box--left Vlt-bg-grey-lighter feedback">
     <div class="Vlt-grid">
       <div class="Vlt-col Vlt-col--3of4">
         <h4>Was this documentation helpful?</h4>

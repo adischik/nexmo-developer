@@ -1,10 +1,14 @@
 #primary-content {
   .Vlt-tabs__link_active {
-    background: #f8fafc;
+    background: $grey-lighter;
+
+    &:before {
+      background: $grey-lighter;
+    }
   }
 
   .Vlt-tabs__content {
-    background: #f8fafc;
+    background: $grey-lighter;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
     border-bottom: 1px solid #e7ebee;
