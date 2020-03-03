@@ -2,19 +2,19 @@ class Card
   COLOUR = {
     'Voice' => 'green',
     'SMS' => 'purple',
-    'Dispatch' => 'teal',
+    'Dispatch' => 'green',
     'Messages' => 'indigo',
     'Client SDK' => 'orange',
     'Conversation' => 'red',
     'Number Insight' => 'grey',
-    'Verify' => 'aqua',
+    'Verify' => 'yellow',
     'voice' => 'green',
     'messaging/sms' => 'purple',
-    'dispatch' => 'teal',
+    'dispatch' => 'green',
     'messages' => 'indigo',
     'client-sdk' => 'orange',
     'conversation' => 'red',
     'number-insight' => 'grey',
-    'verify' => 'aqua',
+    'verify' => 'yellow',
   }.freeze
 end
