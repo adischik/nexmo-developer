@@ -1565,10 +1565,10 @@
   dependencies:
     "@types/yargs-parser" "*"
 
-"@vonagevolta/volta2@^0.0.17":
-  version "0.0.17"
-  resolved "https://registry.yarnpkg.com/@vonagevolta/volta2/-/volta2-0.0.17.tgz#429f1cfd2892b7cb9a9f9b724fa3c07ff4af6b57"
-  integrity sha512-vt116m2QoQoTdgk2nT3o6AyVM9hJpxs5hX5a1TErPSpm5hn/YTCEcbG3gYheBZtqpU/zfQ0IBYXmCqpaRmpctA==
+"@vonagevolta/volta2@^0.0.19":
+  version "0.0.19"
+  resolved "https://registry.yarnpkg.com/@vonagevolta/volta2/-/volta2-0.0.19.tgz#da4b90b1b9ab84e682aa4221c749fc60002db8f5"
+  integrity sha512-a9CeNC2XF7+jwy73NtWG8XqstpVXYAueUg1mi6umjqvGlrVEG/J1SCanbYx0Qk9O5qzj8DXA5yWGXt6lO8er3Q==
   dependencies:
     marked "^0.7.0"
     marked-sanitizer-github "^1.0.0"
