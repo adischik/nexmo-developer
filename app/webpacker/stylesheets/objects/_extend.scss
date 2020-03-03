@@ -1,6 +1,10 @@
 .extend {
   .Vlt-card {
     min-width: 280px;
+
+    .Vlt-icon--larger {
+      margin-bottom: 0px;
+    }
   }
 }
 .extend-wrapper {
