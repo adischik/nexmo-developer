@@ -28,6 +28,14 @@
       flex: 4;
       min-width: 260px;
       text-align: center;
+
+      h5 {
+        margin-bottom: 0px;
+      }
+
+      .Nxd-api-badge {
+        background: $grey-darker !important;
+      }
     }
 
     @include tablet {
@@ -73,6 +81,10 @@
 
   .Nxd-product__separator {
     margin: 0 10px;
+  }
+
+  .Nxd-product__title {
+    align-items: baseline;
   }
 }
 
