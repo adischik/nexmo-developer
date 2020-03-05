@@ -14,7 +14,7 @@ GIT
 
 GIT
   remote: https://github.com/Nexmo/nexmo-oas-renderer
-  revision: 0d0a247ab5d408cbb676b05a84f00e9b2d0a950b
+  revision: 7cbabe9095a1af5de80c172faa76faac574e9041
   branch: update-volta
   specs:
     nexmo-oas-renderer (0.8.0)
@@ -544,7 +544,7 @@ GEM
     woothee (1.10.0)
     xpath (3.2.0)
       nokogiri (~> 1.8)
-    zeitwerk (2.2.2)
+    zeitwerk (2.3.0)
 
 PLATFORMS
   ruby
