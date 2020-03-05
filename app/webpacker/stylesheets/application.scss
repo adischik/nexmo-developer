@@ -1,5 +1,5 @@
 @import '~@vonagevolta/volta2/scss/volta';
-@import '~@vonagevolta/volta2/scss/volta-prism';
+
 @import '~@vonagevolta/volta2/scss/templates/volta-templates';
 @import '~@vonagevolta/volta2/scss/layout/article';
 @import '~@vonagevolta/volta2/scss/layout/utils';
@@ -25,6 +25,8 @@
 @import "~@vonagevolta/volta2/scss/components/modals";
 @import "~@vonagevolta/volta2/scss/components/empties";
 
+// this should be imported last
+@import '~@vonagevolta/volta2/scss/volta-prism';
 
 /// NDP styles
 @import "./custom/variables";
