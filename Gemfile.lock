@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/Nexmo/nexmo-markdown-renderer
-  revision: 1e044af9d51d87253162eb2501dd8d22aa23c91d
+  revision: c12ead60ce2783e7df9d7e008bb23d6997dcb4b7
   branch: update-volta
   specs:
     nexmo_markdown_renderer (0.0.3)
