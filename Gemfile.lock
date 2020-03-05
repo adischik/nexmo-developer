@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/Nexmo/nexmo-markdown-renderer
-  revision: cc1f3d965a4579da54141bc1a13caa1a54e4e859
+  revision: 5e80947a235651c72b1dbdb59d00f64743b25bdb
   branch: update-volta
   specs:
     nexmo_markdown_renderer (0.0.3)
@@ -14,7 +14,7 @@ GIT
 
 GIT
   remote: https://github.com/Nexmo/nexmo-oas-renderer
-  revision: 7cbabe9095a1af5de80c172faa76faac574e9041
+  revision: e9f5d1a9ff897f0dfa4f807cd87b9a70f343d3de
   branch: update-volta
   specs:
     nexmo-oas-renderer (0.8.0)
