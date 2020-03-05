@@ -36,6 +36,10 @@
       .Nxd-api-badge {
         background: $grey-darker !important;
       }
+
+      a {
+        display: flex;
+      }
     }
 
     @include tablet {

@@ -136,3 +136,12 @@
 .api-path-parameter {
   color: $aqua-dark;
 }
+
+.Nxd-api__title {
+  display: flex;
+  align-items: baseline;
+
+  h1 {
+    margin-right: 10px;
+  }
+}
