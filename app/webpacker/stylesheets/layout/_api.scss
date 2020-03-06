@@ -60,6 +60,10 @@
       .Vlt-native-dropdown {
         margin-right: $unit2;
         float: right;
+
+        select {
+          padding-right: 38px;
+        }
       }
 
       &--sticky {
