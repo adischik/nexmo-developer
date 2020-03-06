@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/Nexmo/nexmo-markdown-renderer
-  revision: c12ead60ce2783e7df9d7e008bb23d6997dcb4b7
+  revision: a0a56bc585cd6d216cf50b5f6cd93a3cb97c6072
   branch: update-volta
   specs:
     nexmo_markdown_renderer (0.0.3)
@@ -14,7 +14,7 @@ GIT
 
 GIT
   remote: https://github.com/Nexmo/nexmo-oas-renderer
-  revision: cdefe306672ca51ad8c89a5091a04bc16f73c7c8
+  revision: 1f97506bef5ff56264e0087b6deeb86928e50b5a
   branch: update-volta
   specs:
     nexmo-oas-renderer (0.8.0)
@@ -23,7 +23,7 @@ GIT
       banzai (~> 0.1.2)
       dotenv (~> 2.7)
       neatjson (~> 0.8)
-      oas_parser (~> 0.23)
+      oas_parser (~> 0.24)
       octicons_helper (~> 8.2)
       redcarpet (= 3.4.0)
       rouge (= 2.0.7)
