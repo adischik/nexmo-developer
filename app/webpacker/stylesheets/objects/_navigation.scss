@@ -57,10 +57,10 @@
   }
 
   .navigation-item--ncco-reference a {
-    color: $purple;
+    color: $orange;
 
     .navigation-item--ncco-reference a {
-      color: $purple;
+      color: $orange;
     }
   }
 }
@@ -97,4 +97,8 @@
 
 .Vlt-sidemenu__link_active {
   color: white !important;
+}
+
+.Nxd-sidenav {
+  margin-top: 24px;
 }
