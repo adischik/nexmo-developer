@@ -49,6 +49,12 @@
     border-bottom: 1px solid $grey-lighter;
     padding: $unit2;
 
+    .Vlt-tabs__link_active {
+      &:before {
+        background: $grey-light;
+      }
+    }
+
     h4,
     h5 {
       color: $grey-darker;
