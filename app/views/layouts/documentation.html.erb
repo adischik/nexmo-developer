@@ -15,7 +15,7 @@
     </div>
     <main class="Vlt-main Nxd-main" tabindex="0">
       <%= render partial: 'layouts/partials/notices' %>
-      <div class="<%= !@hide_card_wrapper ? 'Vlt-card ' : '' %>Vlt-article" id="primary-content">
+      <div class="Vlt-article" id="primary-content">
         <%= yield %>
         <%= render partial: 'layouts/partials/feedback' unless @skip_feedback %>
       </div>
