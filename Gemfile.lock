@@ -14,7 +14,7 @@ GIT
 
 GIT
   remote: https://github.com/Nexmo/nexmo-oas-renderer
-  revision: 516c93a8fdbde9cc2dafb81c311dfbb4bde1d5f6
+  revision: cdefe306672ca51ad8c89a5091a04bc16f73c7c8
   branch: update-volta
   specs:
     nexmo-oas-renderer (0.8.0)
