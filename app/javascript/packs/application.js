@@ -8,6 +8,7 @@
 // layout file, like app/views/layouts/application.html.erb
 
 import '@babel/polyfill'
+import Rails from '@rails/ujs';
 
 import Vue from 'vue/dist/vue.esm'
 
@@ -26,6 +27,9 @@ import APIStatus from '../api_status'
 import CodeSnippetEvents from '../code_snippet_events'
 import Navigation from '../navigation'
 import Careers from '../careers'
+import LocaleSwitcher from '../locale_switcher'
+
+Rails.start()
 
 $(document).ready(function() {
   Scroll()
@@ -39,6 +43,7 @@ $(document).ready(function() {
   Navigation()
   Spotlight()
   new Careers
+  new LocaleSwitcher
 
   if (document.getElementById('jwt-generator-app')) {
     new Vue({
