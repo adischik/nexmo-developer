@@ -50,8 +50,6 @@
 }
 
 .navigation--documentation {
-  background: $grey-lighter !important;
-
   .navigation-item--api-reference a {
     color: $purple;
   }
@@ -98,5 +96,6 @@
 }
 
 .Nxd-sidenav {
-  margin-top: 24px;
+  padding-top: 24px;
+  margin-top: 10px;
 }
