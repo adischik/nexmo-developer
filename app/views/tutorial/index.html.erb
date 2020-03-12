@@ -10,16 +10,12 @@
     <div class="Vlt-grid">
       <div class="Vlt-col">
         <% if @tutorial.previous_step %>
-<<<<<<< HEAD
           <a
             class="Vlt-btn Vlt-btn--secondary"
-            href="<%= url_for(product: @tutorial.current_product, tutorial_name: @tutorial.name, tutorial_step: @tutorial.previous_step['path'], code_language: @tutorial.code_language, only_path: true, controller: :tutorial, action: :index) %>"
+            href="<%= url_for(product: @tutorial.current_product, tutorial_name: @tutorial.name, tutorial_step: @tutorial.previous_step.name, code_language: @tutorial.code_language, only_path: true, controller: :tutorial, action: :index) %>"
           >
             &laquo; Previous
           </a>
-=======
-          <a class="Vlt-btn Vlt-btn--secondary" href="<%= "/#{@tutorial.current_product}/tutorials/#{@tutorial.name}/#{@tutorial.previous_step.name}/#{@tutorial.code_language}" %>"> &laquo; Previous</a>
->>>>>>> Refactor Tutorials.
         <% end %>
       </div>
       <div class="Vlt-col Vlt-right">
@@ -69,10 +65,10 @@
                 </div>
               <div class="Vlt-col Vlt-col--3of4 Nxd-step">
                 <a
-                  title="<%= t['description'] %>"
+                  title="<%= t.description %>"
                   href="<%= url_for(controller: :tutorial, action: :index, product: @tutorial.current_product, tutorial_name: @tutorial.name, tutorial_step: t.name, code_language: @tutorial.code_language) %>"
                 >
-                  <%= t['title'] %>
+                  <%= t.description %>
                 </a>
               </div>
             </div>
