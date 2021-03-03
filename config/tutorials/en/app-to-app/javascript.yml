@@ -21,10 +21,10 @@ introduction:
 
 prerequisites:
 - create-nexmo-account
-- install-nodejs
-- client-sdk/install-node-client-sdk
-- install-nexmo-cli-beta
 - join-github
+- install-nodejs
+- install-nexmo-cli-beta
+- client-sdk/install-node-client-sdk
 
 tasks:
 - client-sdk/app-to-app/create-ncco
