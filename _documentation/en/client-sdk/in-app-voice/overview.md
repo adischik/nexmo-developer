@@ -1,20 +1,22 @@
 ---
 title: Overview
-description: This topic provides an overview of using the Client SDK to build in-app voice applications.
+description: This topic provides an overview of how to build in-app voice applications using the Client SDK.
 navigation_weight: 0
 ---
 
 # In-App Voice Overview
 
-Client SDK allows you to add voice capabilities to your web (JavaScript), Android, or iOS application. You application would then be able to support a variety of use cases such as click to call a support agent, realtime messaging, and voice chat rooms.
+In-App voice enabled via the Client SDK enables IP based voice communication directly within your web (Javascript), Android, and iOS applications.  With the Client SDK you can easily embed voice into your contact center, marketplace and B2C applications supporting: app to app calling, click-to-call, conferencing, Voice API features such as Automatic Speech Recognition, Websockets, TTS and more. Using the Client SDK also allowes you to easily interconnect In-App voice and In-App messaging.
 
-Client SDK In-App Voice uses WebRTC and includes all the essentials you need to build a feature-rich voice experience.
+### Features Include
+Client SDK In-App Voice uses WebRTC and includes all the essentials you need to build a feature-rich voice experience
 
 * 1:1 or Group Calls
 * Audio Controls – Mute, earmuff
 * DTMF Support
 
-Client SDK In-App Voice integrates with the Vonage Voice API which amplifies the In-App Voice offering through extra functionality such as:
+### Extendability Through the Voice API
+Client SDK In-App Voice is a part of the Vonage Voice API which amplifies the In-App Voice offering through extra functionality
 
 * Calls to phones (PSTN)
 * Calls to SIP-enabled devices
@@ -25,7 +27,8 @@ Client SDK In-App Voice integrates with the Vonage Voice API which amplifies the
 * Conference calling
 * Text-to-speech messages in 23 languages
 
-The Android and iOS Client SDKs additionally offer:
+### Native SDK Specific Features
+The Android and iOS Client SDKs offer additional capabilities
 
 * Network Change Handling
 * Audio Routing Management
@@ -33,12 +36,7 @@ The Android and iOS Client SDKs additionally offer:
 
 ## Voice calls
 
-There are two ways to make Voice calls:
-
-1. Using VAPI using the Client SDK `callServer()` method.
-2. Using peer-peer call functionality via the `inAppCall()` method.
-
-The Client SDK application manages the [Event flow](/conversation/guides/event-flow) of the conversation.
+**The way to make a voice call is using the Client SDK `callServer()` method. This allowes for the use of the [Voice API](/voice/voice-api/overview) to manage the call on the server side. The Client SDK application manages the [Event flow](/conversation/guides/event-flow) of the conversation in the client side.**
 
 ## Setup
 
@@ -55,12 +53,6 @@ The Client SDK application manages the [Event flow](/conversation/guides/event-f
 
 ## Concepts
 
-Conversation API concepts:
-
-```concept_list
-product: conversation
-```
-
 In-app Voice concepts:
 
 ```concept_list
@@ -75,7 +67,8 @@ product: client-sdk
 
 ## Reference
 
-* [Conversation API](/api/conversation)
 * [Client SDK Reference - Web](/sdk/client-sdk/javascript)
 * [Client SDK Reference - iOS](/sdk/client-sdk/ios)
 * [Client SDK Reference - Android](/sdk/client-sdk/android)
+
+For advanced control of voice calls and the converations containing them see [conversation](/conversation/overview)
