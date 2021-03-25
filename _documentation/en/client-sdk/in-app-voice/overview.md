@@ -16,7 +16,7 @@ Client SDK In-App Voice uses WebRTC and includes all the essentials you need to 
 * DTMF Support
 
 ### Extendability Through the Voice API
-Client SDK In-App Voice is a part of the Vonage Voice API which amplifies the In-App Voice offering through extra functionality
+Client SDK In-App Voice is a part of the Vonage Voice API which amplifies the In-App Voice offering by enabling:
 
 * Calls to phones (PSTN)
 * Calls to SIP-enabled devices
