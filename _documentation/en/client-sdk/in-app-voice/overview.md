@@ -71,4 +71,4 @@ product: client-sdk
 * [Client SDK Reference - iOS](/sdk/client-sdk/ios)
 * [Client SDK Reference - Android](/sdk/client-sdk/android)
 
-For advanced control of voice calls and the converations containing them see [conversation](/conversation/overview)
+For more information about managing conversations that include voice calls, see the [Conversation API](/conversation/overview)
