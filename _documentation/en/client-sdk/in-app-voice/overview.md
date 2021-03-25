@@ -6,10 +6,19 @@ navigation_weight: 0
 
 # In-App Voice Overview
 
-In-App voice enabled via the Client SDK enables IP based voice communication directly within your web (Javascript), Android, and iOS applications.  With the Client SDK you can easily embed voice into your contact center, marketplace and B2C applications supporting: app to app calling, click-to-call, conferencing, Voice API features such as Automatic Speech Recognition, Websockets, TTS and more. Using the Client SDK also allowes you to easily interconnect In-App voice and In-App messaging.
+The Client SDK makes it straightforward to include IP-based voice communication capabilities in your web (JavaScript), Android, and iOS applications. Use voice within your apps to build [contact center](/use-cases/contact-center-client-sdk), [marketplace](/use-cases/digital-marketplace-client-sdk) and B2C (Business to Consumer) solutions that include:
+
+* [App to app calling](/client-sdk/tutorials/app-to-app/introduction/)
+* [Click to call](/use-cases/client-sdk-click-to-call)
+* [Audio conferencing](/voice/voice-api/code-snippets/connect-callers-into-a-conference)
+* [Automatic speech recognition](/voice/voice-api/guides/asr)
+* [Websockets](/voice/voice-api/guides/websockets)
+* [Text-to-speech](/voice/voice-api/guides/text-to-speech)
+
+The Client SDK also enables you to include [in-app voice](/client-sdk/in-app-voice/overview) and [in-app messaging](/client-sdk/in-app-messaging/overview) in your applications so that your customers can communicate with you using their preferred channels.
 
 ### Features Include
-Client SDK In-App Voice uses WebRTC and includes all the essentials you need to build a feature-rich voice experience
+Client SDK In-App Voice uses WebRTC and includes all the essentials you need to build a feature-rich voice experience that includes:
 
 * 1:1 or Group Calls
 * Audio Controls – Mute, earmuff
