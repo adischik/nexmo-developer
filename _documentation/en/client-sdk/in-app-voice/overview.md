@@ -28,7 +28,7 @@ Client SDK In-App Voice is a part of the Vonage Voice API which amplifies the In
 * Text-to-speech messages in 23 languages
 
 ### Native SDK Specific Features
-The Android and iOS Client SDKs offer additional capabilities
+The Android and iOS Client SDKs offer additional capabilities, including:
 
 * Network Change Handling
 * Audio Routing Management
