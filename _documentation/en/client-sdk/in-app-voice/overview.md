@@ -36,7 +36,7 @@ The Android and iOS Client SDKs offer additional capabilities
 
 ## Voice calls
 
-**The way to make a voice call is using the Client SDK `callServer()` method. This allowes for the use of the [Voice API](/voice/voice-api/overview) to manage the call on the server side. The Client SDK application manages the [Event flow](/conversation/guides/event-flow) of the conversation in the client side.**
+**To make a voice call, use the Client SDK `callServer()` method. This enables you to use the [Voice API](/voice/voice-api/overview) to manage the call on the server. The Client SDK application manages the [event flow](/conversation/guides/event-flow) of the conversation in the client.**
 
 ## Setup
 
